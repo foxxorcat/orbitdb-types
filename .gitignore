@@ -1,0 +1,17 @@
+node_modules
+build
+dist
+.docs
+.coverage
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.vscode
+datastore
+debugging/*.log
+scripts/tmp
+test
+test-results
+*-report.json
+*.log

@@ -1,0 +1,30 @@
+{
+  "name": "@foxxorcat/orbitdb-core-types",
+  "version": "2.0.0",
+  "description": "Unofficial typings for orbitdb/core",
+  "type": "module",
+  "scripts": {
+    "publishNPM": "pnpm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxxorcat/orbitdb-types.git"
+  },
+ "keywords": [
+    "@types",
+    "typescript",
+    "orbit-db"
+  ],
+  "author": "foxxorcat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxxorcat/orbitdb-types/issues"
+  },
+  "homepage": "https://github.com/foxxorcat/orbitdb-types#readme",
+  "types": "./index.ts",
+  "dependencies": {
+    "@helia/interface": "^5.0.0",
+    "@libp2p/crypto": "^5.0.0",
+    "@libp2p/interface": "^2.0.0"
+  }
+}
